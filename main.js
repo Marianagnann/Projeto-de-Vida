@@ -31,7 +31,7 @@ for(let i=0;i <botoes2.length;i++){
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2025-05-15T00:00:00");
+const tempoObjetivo1 = new Date("2025-12-16T00:00:00");
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
